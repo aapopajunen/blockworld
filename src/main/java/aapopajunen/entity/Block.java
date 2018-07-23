@@ -31,6 +31,8 @@ public class Block {
         return faces;
     }
 
+
+
     public List<Direction> getRenderedFaceDirections() {
         List<Direction> directions = new ArrayList<>();
         for (Direction direction : Direction.values()) {
